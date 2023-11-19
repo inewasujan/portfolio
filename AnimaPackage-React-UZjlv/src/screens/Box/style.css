@@ -1,0 +1,12 @@
+.box {
+  height: 50px;
+  width: 46px;
+}
+
+.box .moon {
+  height: 147px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 137px;
+}
