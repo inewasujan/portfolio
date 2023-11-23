@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     width: auto;
-    height: 100vh;
+    height: 100%;
 }
 @media screen and (max-width: 960px){
     .my-app{
@@ -76,6 +76,7 @@
   align-items: center;
   text-align: center;
   margin: 20px;
+  height: 80vh;
 }
 .home-sub {
   flex: 1;
@@ -132,6 +133,7 @@ p li {
   filter: drop-shadow(0 0 10px #FFC947);  
   /* content: url("./icons/icons8-instagram.svg"); */
 }
+
 
 
 

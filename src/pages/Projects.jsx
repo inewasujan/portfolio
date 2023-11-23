@@ -19,6 +19,7 @@ export default function Projects() {
             "id": "3",
             "title": "Weather App",
             "info": "Stay informed about the weather with this interactive weather app. Built using React, the app allows users to check the current weather, view forecasts, and get details like temperature, humidity, and wind speed. It provides a user-friendly interface for a seamless weather tracking experience.",
+            "github": "#",
             "project": "#",
         },
     ]
