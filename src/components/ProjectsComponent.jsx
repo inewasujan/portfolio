@@ -1,8 +1,11 @@
-import "./pages.scss";
+import "./project.scss";
 export default function ProjectsComponent(props) {
-  return (
+      if (!props.data || !Array.isArray(props.data)) {
+      return <div>No data available</div>;
+      }
+    return (
     <div className="project-main">
-      { props.data.map((item, idx) => {
+      {props.data.map((item, idx) => {
         return (
         <div className="project-item" key={idx}>
           <div className="project-info" key={item.id}>
@@ -15,17 +18,17 @@ export default function ProjectsComponent(props) {
             </ul>
             <p>{item.info}</p>
             <div className="project-links">
-              <button href={item.github} className="btn">
+              <a href={item.github} className="btn">
                 View Github
-              </button>
-              <a href={item.project} className="btn">
+              </a>
+              <a href={item.project}>
                 View project &#8599;
               </a>
             </div>
           </div>
-          <div className="image-container">
+          {/* <div className="image-container">
             <img src={item.image} alt="musiclib" />
-          </div>
+          </div> */}
         </div>
       )}
       )}

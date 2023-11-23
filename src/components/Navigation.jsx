@@ -4,7 +4,7 @@ export default function Navigation({ onToggleTheme, isDarkMode }) {
     return (
         <div className={`nav-bar ${isDarkMode ? 'light-mode' : 'dark-mode'}`}>
             <div className="nav-bar-logo">
-             <Link to="/">Sam.</Link>
+            <Link to="/">Sujan.</Link>
             </div>
                 <div className="nav-bar-links">                
                     <Link to="./about">About</Link>
